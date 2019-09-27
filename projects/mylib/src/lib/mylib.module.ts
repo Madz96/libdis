@@ -1,11 +1,10 @@
-import { NgModule } from '@angular/core';
-import { MylibComponent } from './mylib.component';
-import { SomethingComponent } from './something/something.component';
+import { NgModule } from "@angular/core";
+import { MylibComponent } from "./mylib.component";
+import { SomethingComponent } from "./something/something.component";
 
 @NgModule({
-  imports: [
-  ],
+  imports: [],
   declarations: [MylibComponent, SomethingComponent],
-  exports: [MylibComponent]
+  exports: [MylibComponent, SomethingComponent]
 })
-export class MylibModule { }
+export class MylibModule {}
